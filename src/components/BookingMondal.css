@@ -1,0 +1,78 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+  }
+  
+  .modal-container {
+    background-color: #1a1a1a;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 28rem;
+    padding: 1.5rem;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #a1a1a1;
+    transition: color 0.2s;
+  }
+  
+  .close-button:hover {
+    color: #ffffff;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .session-title {
+    color: #f56565;
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    display: block;
+    color: #a1a1a1;
+    margin-bottom: 0.25rem;
+  }
+  
+  .input-field {
+    width: 100%;
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    border-radius: 0.375rem;
+    padding: 0.5rem 0.75rem;
+    color: #ffffff;
+    transition: border-color 0.2s;
+  }
+  
+  .input-field:focus {
+    border-color: #f56565;
+    outline: none;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    background: linear-gradient(to right, #e53e3e, #c53030);
+    color: #ffffff;
+    padding: 0.5rem 0;
+    border-radius: 0.375rem;
+    margin-top: 1.5rem;
+    transition: background 0.3s;
+  }
+  
+  .confirm-button:hover {
+    background: linear-gradient(to right, #c53030, #9b2c2c);
+  }
+  

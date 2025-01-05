@@ -1,0 +1,72 @@
+.ticket-card {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 191, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ticket-card:hover {
+    border-color: rgba(255, 191, 0, 0.4);
+  }
+  
+  .ticket-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ticket-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .info-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .icon {
+    color: #f59e0b;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .text {
+    color: #d1d5db;
+  }
+  
+  .price {
+    color: #f59e0b;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .ticket-datetime {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .datetime {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .book-button {
+    width: 100%;
+    padding: 0.5rem;
+    background: linear-gradient(to right, #f59e0b, #d97706);
+    color: white;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .book-button:hover {
+    background: linear-gradient(to right, #d97706, #b45309);
+  }
+  

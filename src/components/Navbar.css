@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    display: flex;
+    gap: 0.25rem;
+  }
+  
+  .tedx {
+    color: #ef4444;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .iitg {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .links {
+    display: flex;
+    gap: 1.5rem;
+    color: #d1d5db;
+  }
+  
+  .nav-link {
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #ef4444;
+  }
+  
+  .book-now-button {
+    background: linear-gradient(to right, #dc2626, #b91c1c);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    cursor: pointer;
+  }
+  

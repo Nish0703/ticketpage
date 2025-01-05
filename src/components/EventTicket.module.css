@@ -1,0 +1,122 @@
+.ticket-card {
+    position: relative;
+    width: 100%;
+    background-color: #1a1a1a;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  .ticket-card:hover {
+    box-shadow: 0 0 30px rgba(220, 38, 38, 0.3);
+  }
+  
+  .zigzag-top,
+  .zigzag-bottom {
+    height: 0.75rem;
+    background-size: contain;
+    background-repeat: repeat-x;
+  }
+  
+  .zigzag-top {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMTJMMTAgMEwyMCAxMkgwWiIgZmlsbD0iIzFhMWExYSIvPjwvc3ZnPg==');
+  }
+  
+  .zigzag-bottom {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMEwxMCAxMkwyMCAwSDBaIiBmaWxsPSIjMWExYTFhIi8+PC9zdmc+');
+  }
+  
+  .ticket-content {
+    padding: 1.5rem;
+    border: 4px double rgba(239, 68, 68, 0.2);
+    margin: 0.75rem;
+  }
+  
+  .ticket-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .presenter {
+    color: #ef4444;
+    font-weight: bold;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+  }
+  
+  .admit-one {
+    color: #fbbf24;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    letter-spacing: 0.2em;
+  }
+  
+  .ticket-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ticket-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ticket-subtitle {
+    font-style: italic;
+    color: #9ca3af;
+    font-size: 0.875rem;
+  }
+  
+  .ticket-date-time {
+    text-align: right;
+  }
+  
+  .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #9ca3af;
+    font-size: 0.875rem;
+  }
+  
+  .icon {
+    color: #ef4444;
+  }
+  
+  .ticket-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .ticket-number {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .number-box {
+    padding: 0.25rem 0.75rem;
+    background-color: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+  }
+  
+  .book-button {
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(to right, #dc2626, #b91c1c);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background: linear-gradient(to right, #b91c1c, #9b1c1c);
+  }
+  
